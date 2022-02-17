@@ -7,6 +7,6 @@ agent any
   }}
   stage('email notification'){
     steps{
-      mail bcc: '', body: 'This is a testing of build  email notification ', cc: '', from: '', replyTo: '', subject: 'Jenkins build ', to: 'gautham.kukutla@gmail.com'
+      mail bcc: '', body: 'This is a testing of build  email notification ', cc: '', from: 'gautham.kukutla@gmail.com', replyTo: '', subject: 'Jenkins build ', to: 'kukutla.gautham@gmail.com'
     }}}
 }
